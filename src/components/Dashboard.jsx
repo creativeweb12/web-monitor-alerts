@@ -18,7 +18,7 @@ const Dashboard = ({ section }) => {
   }, []);
 
   // ================= MONITORING =================
-  if (section === "Monitoring") { 
+  if (section === "Monitoring") {
     return (
       <div className="dashboard-content">
         <div className="cards">

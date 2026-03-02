@@ -13,7 +13,7 @@ const menuItems = [
 const Sidebar = ({ active, setActive }) => {
   return (
     <div className="sidebar">
-      <h2 className="logo">⚡ UptimeRobot</h2>
+      <h2 className="logo">⚡Real-Live Time</h2>
       {menuItems.map(item => (
         <div
           key={item}
